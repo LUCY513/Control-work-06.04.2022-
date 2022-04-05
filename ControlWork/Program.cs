@@ -12,12 +12,10 @@ string[] arrayChar = new string[] { "♥GB♥ ", ":з ", "o_o ", "☼ ", "Z ", "
 // 5.
 string[] arrayGet = new string[N];
 
-
-
-
-
-
-
+// 8.
+PrintArray("<<Список символов>>", arrayChar);
+GetArrayNElements(arrayChar, arrayGet);
+PrintArray("<<Получили>>", arrayGet);
 
 // 6.
 void PrintArray(string text, string[] arr)
@@ -28,4 +26,23 @@ void PrintArray(string text, string[] arr)
         Console.Write(arr[i]);
     }
     Console.WriteLine();
+}
+// 7.
+string[] GetArrayNElements(string[] array, string[] ar)
+{
+    Console.WriteLine();
+    // 1.
+    if (N > 0)
+    {
+        for (int i = 0; i < N; i++)                                 // 
+        {
+            Random GetPositionElements = new Random();              // I.
+            int M = GetPositionElements.Next(0, arrayChar.Length);  // II.
+            ar[i] = array[M];                                       // III.
+        }
+        return ar;                                                  // IV.
+    }
+    // 2.
+    else Console.WriteLine("[ ]");                                  // I.
+    return ar;                                                      // II.
 }

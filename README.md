@@ -63,9 +63,9 @@
 
 8. Теперь осталось только обратиться к нашим методам в правильной последовательности и с аргументами в них
 
-        15. PrintArray("<<Список символов>>", arrayChar);
-        16. GetArrayNElements(arrayChar, arrayGet);
-        17. PrintArray("<<Получили>>", arrayGet);   
+        16. PrintArray("<<Список символов>>", arrayChar);
+        17. GetArrayNElements(arrayChar, arrayGet);
+        18. PrintArray("<<Получили>>", arrayGet);   
 
 # Блок схема программы
 
