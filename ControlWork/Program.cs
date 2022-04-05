@@ -11,3 +11,21 @@ Console.ReadLine();
 string[] arrayChar = new string[] { "♥GB♥ ", ":з ", "o_o ", "☼ ", "Z ", ":) ", ":-:-:-: ", "♦♦♦ ", "TS " };
 // 5.
 string[] arrayGet = new string[N];
+
+
+
+
+
+
+
+
+// 6.
+void PrintArray(string text, string[] arr)
+{
+    Console.WriteLine(text);
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write(arr[i]);
+    }
+    Console.WriteLine();
+}
