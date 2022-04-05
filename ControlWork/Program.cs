@@ -42,7 +42,5 @@ string[] GetArrayNElements(string[] array, string[] ar)
         }
         return ar;                                                  // IV.
     }
-    // 2.
-    else Console.WriteLine("[ ]");                                  // I.
     return ar;                                                      // II.
 }
